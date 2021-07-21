@@ -29,6 +29,21 @@ CSS SITEMAP >>>>
   text-align: center;
 }
 
+.div_contenedor {
+	position: relative;
+	padding-bottom: 56.25%; /*panorámico*/
+	padding-top: 25px;
+	height: 0;
+}
+.div_contenedor iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+
 html,
 body {
   -webkit-font-smoothing: antialiased;
