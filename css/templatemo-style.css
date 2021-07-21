@@ -24,6 +24,10 @@ CSS SITEMAP >>>>
 /*==============================================
 01. GENERAL CSS
 ================================================*/
+.center-video {
+  align-items: center;
+  text-align: center;
+}
 
 html,
 body {
